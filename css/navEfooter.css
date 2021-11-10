@@ -1,0 +1,160 @@
+/* **************************************************************************** */
+/* *********************Style do Menu Nav e do Footer********************* */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #021B4D;
+    height: 75px;
+}
+
+.nav-link {
+    display: unset;
+    color: white;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+
+#logo {
+    width: 24%;
+    height: auto;
+    cursor: pointer;
+    position: absolute;
+}
+
+.tamanho {
+    justify-content: center;
+}
+
+.cor-amarelo {
+    background-color: #FFEF0E;
+}
+
+.cor-azul {
+    background-color: #021B4D;
+}
+
+.cor {
+    color: #021B4D;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #021B4D;
+    color: white;
+}
+
+.amarelo-btn {
+    width: 100px;
+    height: 43px;
+    background-color: #FFEF0E;
+    color: black;
+    border-radius: 20px;
+    border: none;
+}
+
+.amarelo-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+
+#login {
+    position: absolute;
+    top: 22%;
+    left: 88%;
+}
+
+#iconsMidias {
+    margin-right: 10px;
+}
+
+footer {
+    text-decoration: none;
+}
+
+.teste2{
+    z-index: 10;
+}
+
+#btnNav {
+    background-image: url(../img/menu-b.png);
+    width: 3rem;
+    height: 3rem;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: -45px;
+}
+
+.tamanho-a {
+    margin-left: 25px;
+}
+
+footer {
+    height: 90px;
+    margin-top: 40px;
+}
+
+.ctn-footer {
+    height: 100%;
+}
+
+#footer2 {
+    display: none;
+    background-color: #021B4D;
+    color: white;
+}
+
+
+
+/******************************@MEDIA**************************/
+
+@media screen and (max-width: 991px) {
+    #logo {
+        position: absolute;
+        left: 38%;
+        top: 12px;
+        width: 220px;
+    }
+    .navbar {
+        height: auto;
+    }
+    #login {
+        position: initial;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    #footer2 {
+        display: flex;
+    }
+    #copyright {
+        display: none;
+    }
+    #copyright-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #textcopy {
+        height: 23px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    #logo {
+        width: 160px;
+    }
+}

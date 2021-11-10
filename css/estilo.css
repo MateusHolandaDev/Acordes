@@ -1,0 +1,378 @@
+/* **************************************************************************** */
+
+/* *********************Style da Página INDEX ********************* */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+}
+
+#btnLogin {
+    margin-right: 40px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: 400%;
+}
+
+#iconsMidias {
+    margin-right: 10px;
+}
+
+footer {
+    text-decoration: none;
+}
+
+/* **************** Cards da página Index *************************** */
+
+.cardIndex {
+    background-color: #ffef0e;
+    overflow: hidden;
+    height: 230px;
+}
+
+.cardIndex:hover {
+    height: 430px;
+    transition: 0.5s;
+}
+
+.card-text {
+    color: #021b4d;
+    font-weight: 500;
+}
+
+#fotoIndex {
+    width: 120%;
+}
+
+/* 
+/************************** Banner inicial da pág Index *****************************/
+
+#bannerIndex {
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 2%
+}
+
+
+/* ************************************************************************************ */
+
+/* *****************************Style da página OFICINAS ********************************/
+
+.cabecalho {
+    color: #e3f2fd;
+    justify-content: center;
+}
+
+#zoom-container {
+    cursor: pointer;
+    display: flex;
+    height: 2rem;
+    border-bottom: none;
+}
+.fundoViolao{
+    background-image: url(../img/violão.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 40vh;
+    border: 0.5rem solid #021B4D;
+    border-radius: 4rem;
+    
+}
+.fundoSopro{
+    background-image: url(../img/sopro.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 40vh;
+    border: 0.5rem solid #021B4D;
+    border-radius: 5rem;
+    
+}
+.fundoPercussao{
+    background-image: url(../img/percussão.jpg);
+    background-size: cover;
+    width: 50vw;
+    height: 40vh;
+    border: 0.5rem solid #021B4D;
+    border-radius: 5rem;
+    
+}
+.cantoRedondo{
+    border-radius: 1rem;
+}
+.corFonteAzul{
+    color: #021B4D;
+}
+.corFundoAzul{
+    background-color: #021b4d;
+}
+.corFonteAmarelo{
+    color: #ffef0e;
+}
+.corFundoAmarelo{
+    background-color: #ffef0e;
+}
+
+/* ********************* quem somos nós *************************** */
+
+#tituloPadrinhos {
+    color: #021b4d;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.textPad {
+    color: #021b4d;
+    font-weight: 500;
+    font-size: large;
+}
+
+/* ************************************************************************************ */
+
+/* *****************************Style da página Padrinhos******************************/
+
+
+/* ***************Patrocinadores******************* */
+
+#soulCode {
+    width: 50%;
+}
+
+#tnt {
+    width: 70%;
+}
+
+#patrocinadores {
+    color: #021b4d;
+    font-weight: 500;
+}
+
+/* ***************Patrocinadores******************* */
+
+.ctn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.row{
+    width: 100%;
+    /* margin-left: 20px; */
+}
+
+#carouselExampleControls{
+    width: 800px;
+}
+
+/* .imgCaroussel{
+    height: 400px;
+} */
+
+#soulCode {
+    width: 200px;
+    padding-right: 20px;
+}
+
+#tnt {
+    width: 200px;
+    height: 150px;
+    padding-top: 25px;
+    padding-left: 20px;
+    
+}
+
+#patrocinadores {
+    color: #021b4d;
+    font-weight: 500;
+}
+
+.row>*{
+    padding-right: 0;
+}
+
+.flex1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto1{
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+#btn-padrinho{
+    position: absolute;
+    top: 760px;
+    left: 18%;
+    width: 200px;
+    height: 60px;
+    background-color: #FFEF0E;
+    border: none;
+    border-radius: 40px;
+}
+   
+   
+#btnpad2{
+    text-decoration: none;
+    color: #021b4d;
+}
+
+.ctn2-btn{
+    width: 100%;
+    display: none;
+    justify-content: center;
+}
+
+#btn2-padrinho{
+    width: 200px;
+    height: 60px;
+    background-color: #FFEF0E;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 80px;
+}
+#btn2-padrinho:hover, #btn-padrinho:hover{
+    transform: scale(1.2);
+    transition: transform 0.5s;
+}
+
+@media screen and (max-width: 1200px){
+    .ctn1{
+        margin-left: 0;
+    }
+    #btn-padrinho{
+        display: none;
+    }
+    .ctn2-btn{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .ctn1{
+        margin-top: 0;
+    }
+    #carouselExampleControls{
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px){
+    #soulCode{
+        padding-right: 0;
+    }
+    #tnt{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    .texto1{
+        padding-right: 0;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textPad{
+        width: 89%;
+        text-align: justify; 
+        margin-top: 40px;
+    }
+
+    .nossaHist{
+     
+        text-align: justify; 
+        margin-top: 40px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+    .textMedia{
+        text-align: justify; 
+        margin-top: 40px;
+   
+    }
+}
+
+/* ******************************* quem somos ************************* */
+#percus{
+width: 50%;
+}
+
+
+#btnInterno{
+    width: 100px;
+    height: 40px;
+    background-color: #021b4d;
+    color: #FFEF0E;
+    border-radius: 20px;
+    border: none;
+    font-weight: 500;
+}
+.modal-content{
+    background-color: #FFEF0E;
+    color: #021b4d;
+}
+#btnModal{
+    width: 100%;
+    height: 25%;
+    background-color: #021b4d;
+    color: #FFEF0E;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+#tituloIndex{
+    color: #021b4d;
+    font-weight: 500;
+    font-size: large;
+}
+.nossaHist{
+    color: #021b4d;
+    font-weight: 500;
+    font-size: large;
+}
+h2{
+    color:#021b4d
+}
+.tituloCards{
+    
+    color:#021b4d
+}
+#botaoModal{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#depoimentos {
+    color: #021b4d;
+    font-weight: 500;
+    font-size:x-large;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(../img/caret-left-fill.svg);
+}
+
+.carousel-control-next-icon{
+    background-image: url(../img/caret-right-fill.svg);
+}
+
+.d-block{
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+}
+
+@media (max-width: 436px) {
+    .imgCarrossel {
+        height: 17rem;
+        width: 200px;
+    }
+}

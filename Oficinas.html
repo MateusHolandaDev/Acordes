@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="js/navEfooter.js" defer></script>
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="fontes/style.css">
+  <link rel="stylesheet" href="css/signin.css">
+  <link rel="stylesheet" href="css/navEfooter.css">
+  <script src="js/jquery.js"></script>
+
+  <title>Acordes - Oficinas</title>
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Ciado um header limpo, pois receberá toda a estrutura do cabeçalho e menu nav por meio do javscript -->
+  <header>
+
+  </header>
+
+  <!-- **************Criação do Main- Conteúdo principal********** -->
+  <main>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <!-- Div Amarela -->
+    <div class="container corFundoAmarelo my-3 cantoRedondo">
+      <h2 class="text-center p-3 corFonteAzul">Oficina Acordes</h2>
+      <p class="container mt-3 corFonteAzul" style="font-weight: 500;">O Projeto Acordes oferece a comunidade 3
+        modalidades de Oficinas: Cordas, Percussão e Sopros.
+        Com o foco de gerar inclusão social infantil em familias de baixa renda, para ser um aluno da Acordes, é
+        necessário preencher, por completo, o cadastro em nosso site. Lembrando que temos como requisitos: idade entre 6
+        e 20 anos; estar matriculado na escola e com frequência acima de 90%; renda familiar até R$ 500,00 por pessoa;
+        residir nos bairros Capão Redondo, Carapicuíba e Guaianases. Os alunos menores de idade, precisarão dos dados do
+        responsável legal.
+        Veja abaixo mais informações sobre nossas Oficinas, Níveis e Horários das Aulas.</p>
+
+      <!-- Accordion com 3 itens -->
+      <div class="accordion p-3" id="accordionFlushExample">
+
+        <!-- ************************* CORDAS ************************************** -->
+        <div class="accordion-item canto" id="accordionCordas">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              <!-- Imagem do violão no fundo -->
+              <h3 class="corFonteAzul">Cordas</h3>
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+
+            <div class="accordion-body bg-light">
+              <!-- Imagem do violão no fundo -->
+              <div class="container container-light fundoViolao"></div>
+              <h3 class="corFonteAzul text text-center my-5"> A Oficina</h3>
+              <p class="container ext-center mt-3">Na Oficina modalidade Cordas, os alunos tem a oportunidade de
+                aprender os seguintes módulos: Básico, Intermediário e Avançado. Em ambos os módulos o instrumento de
+                corda a ser aprendido será o Violão.
+
+                Observação: O instrutor fará uma avaliação de Nivelamento, podendo o Aluno avançar de Nível conforme o
+                seu conhecimento. O Projeto Acordes, fornecerá o instrumento para o Aluno utilizar durante todo o
+                período do Curso.
+              </p>
+              <h3 class="corFonteAzul text text-center my-5">Conteúdo dos Módulos</h3>
+              
+              <!--Criando um container onde conterá 3 group-list  -->
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-danger cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Cordas - Básico</h4>
+                    <li class="list-group-item">História da Música </li>
+                    <li class="list-group-item">Ritmos e Batidas -Básico</li>
+                    <li class="list-group-item">Teoria Musical - Básico</li>
+                    <li class="list-group-item">Desenvolvimento de Acordes</li>
+                    <li class="list-group-item">Técnicas de Violão - Básico</li>
+                    <li class="list-group-item">Primeiras Músicas</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-info cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Cordas - Intermediário</h4>
+                    <li class="list-group-item">Campo Harmônico</li>
+                    <li class="list-group-item">Ritmos e Batidas - Intermediário</li>
+                    <li class="list-group-item">Teoria Musical - Intermediário</li>
+                    <li class="list-group-item">Desenvolvimento de Acordes</li>
+                    <li class="list-group-item">Técnicas de Violão - Intermediário</li>
+                    <li class="list-group-item">Tocando Novas Músicas </li>
+                  </ul>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-success cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Cordas - Avançado</h4>
+                    <li class="list-group-item">Ritmos e Batidas - Avançado</li>
+                    <li class="list-group-item">Escalas Completas</li>
+                    <li class="list-group-item">Formação de Acordes</li>
+                    <li class="list-group-item">Técnicas de Violão - Avançado</li>
+                    <li class="list-group-item">Formando Repertório </li>
+                    <li class="list-group-item">Apresentação Final </li>
+                  </ul>
+
+                </div>
+              </div>
+              <h3 class="corFonteAzul text text-center my-5">Agenda</h3>
+              <!-- Criando um container que receberá as 3 tabelas para divulgar a agenda da Oficina Cordas -->
+              <div class="container">
+                <div class="row w-100">
+
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Básico</h4>
+                  </div>
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 table-responsive">
+                    <table
+                      class="table table-responsive table-hover w-100 table-danger bg-danger justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>13h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Rafael.F</td>
+                        </tr>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>13h20</td>
+                          <td>Carapicuíba</td>
+                          <td>João Roberto</td>
+                        </tr>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>15h20</td>
+                          <td>Guaianases</td>
+                          <td>Mariana Silva</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+              <div class="container">
+                <div class="row ">
+                  <div class="col-lg-12">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Intermediário</h4>
+                  </div>
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-6 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-primary justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>14h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Rafael.F</td>
+                        </tr>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>14h20</td>
+                          <td>Carapicuíba</td>
+                          <td>João Roberto</td>
+                        </tr>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>14h20</td>
+                          <td>Guaianases</td>
+                          <td>Mariana Silva</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+              <div class="container align-content-center">
+                <div class="row ">
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Avançado</h4>
+                  </div>
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-success justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>15h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Rafael.F</td>
+                        </tr>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>15h20</td>
+                          <td>Carapicuíba</td>
+                          <td>João Roberto</td>
+                        </tr>
+                        <tr>
+                          <td>Segunda-Feira</td>
+                          <td>15h20</td>
+                          <td>Guaianases</td>
+                          <td>Mariana Silva</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ************************* PERCUSSÃO************************************* -->
+        <div class="accordion-item" id="acordionPercussao">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              <h3 class="corFonteAzul">Percussão</h3>
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-light">
+              <!-- Imagem de instrumentos de percussão no fundo -->
+              <div class="container container-light fundoPercussao"></div>
+              <h3 class="corFonteAzul text text-center my-5"> A Oficina</h3>
+              <p class="container w-75 ext-center mt-3">Na Oficina de Percussão, os alunos tem a oportunidade de
+                aprender os seguintes módulos: Básico, Intermediário e Avançado.
+                Existem muitos instrumentos considerados Instrumentos de Percussão, e em cada módulo trabalharemos com
+                alguns deles, entre eles estão: Cajón, Triangulo, Pandeiro, Chocalho, Bongô, Zabumba, Surdo, Ganzá,
+                Congas, Alfaia e Caxixi.
+
+                Observação: O instrutor fará uma avaliação de Nivelamento, podendo o Aluno avançar de Nível conforme o
+                seu conhecimento. O Projeto Acordes, fornecerá os instrumentos para Aluno utilizar durante todo o
+                período do Curso.
+              </p>
+              <h3 class="corFonteAzul text text-center my-5">Conteúdo dos Módulos</h3>
+              
+              <!--Criando um container onde conterá 3 group-list  -->
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-danger cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Percussão - Básico</h4>
+                    <li class="list-group-item">História da Música </li>
+                    <li class="list-group-item">Ritmos e Batidas - Básico</li>
+                    <li class="list-group-item">Linguagem Rítmica</li>
+                    <li class="list-group-item">Linguagem Musical</li>
+                    <li class="list-group-item">Técnicas de Instrumentos - Básico</li>
+
+                    <li class="list-group-item">Primeiras Músicas</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-info cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Percussão - Intermediário</h4>
+                    <li class="list-group-item">História da Percussão</li>
+                    <li class="list-group-item">Ritmos e Batidas - Intermediário</li>
+                    <li class="list-group-item">Técnicas de Instrumentos Intermediário/li>
+                    <li class="list-group-item">Teoria Musical - Intermediário</li>
+                    <li class="list-group-item">Desenvolvimento de Acordes</li>
+                    <li class="list-group-item">Tocando Novas Músicas </li>
+                  </ul>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-success cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Percussão - Avançado</h4>
+                    <li class="list-group-item">História dos Ritmos e Instrumentos Recicláveis</li>
+                    <li class="list-group-item">Ritmos e Batidas - Avançado</li>
+                    <li class="list-group-item">Construção de Instrumentos Recicláveis</li>
+                    <li class="list-group-item">Técnicas de Instrumentos - Avançado</li>
+                    <li class="list-group-item">Formando Repertório </li>
+                    <li class="list-group-item">Apresentação Final </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="corFonteAzul text text-center my-5">Agenda</h3>
+              <!-- Criando um container que receberá as 3 tabelas para divulgar a agenda da Oficina Percussão -->
+              <div class="container">
+                <div class="row w-100">
+
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Básico</h4>
+                  </div>
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-danger justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Quarta-Feira</td>
+                          <td>13h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Rodrigo Bernardes</td>
+                        </tr>
+                        <tr>
+                          <td>Quart-Feira</td>
+                          <td>13h20</td>
+                          <td>Carapicuíba</td>
+                          <td>Adriana Maranhão</td>
+                        </tr>
+                        <tr>
+                          <td>Quarta-Feira</td>
+                          <td>15h20</td>
+                          <td>Guaianases</td>
+                          <td>Simone Alves</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row ">
+                  <div class="col-lg-12">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Intermediário</h4>
+                  </div>
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-6 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-primary justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Quarta-Feira</td>
+                          <td>14h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Rodrigo Bernardes</td>
+                        </tr>
+                        <tr>
+                          <td>Quart-Feira</td>
+                          <td>14h20</td>
+                          <td>Carapicuíba</td>
+                          <td>Adriana Maranhão</td>
+                        </tr>
+                        <tr>
+                          <td>Quarta-Feira</td>
+                          <td>14h20</td>
+                          <td>Guaianases</td>
+                          <td>Simone Alves</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+              <div class="container align-content-center">
+                <div class="row ">
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Avançado</h4>
+                  </div>
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-success justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Quarta-Feira</td>
+                          <td>15h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Rodrigo Bernardes</td>
+                        </tr>
+                        <tr>
+                          <td>Quart-Feira</td>
+                          <td>15h20</td>
+                          <td>Carapicuíba</td>
+                          <td>Adriana Maranhão</td>
+                        </tr>
+                        <tr>
+                          <td>Quarta-Feira</td>
+                          <td>15h20</td>
+                          <td>Guaianases</td>
+                          <td>Simone Alves</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+          </div>
+        </div>
+        <!-- ************************* SOPRO ************************************* -->
+        <div class="accordion-item" id="acordionSopros">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              <h3 class="corFonteAzul">Sopro</h3>
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body bg-light">
+              <!-- Imagem do Sax no fundo -->
+              <div class="container container-light fundoSopro"></div>
+              <h3 class="corFonteAzul text text-center my-5"> A Oficina</h3>
+              <p class="container w-75 ext-center mt-3">Na Oficina de Sopros, os alunos tem a oportunidade de aprender
+                os seguintes módulos: Básicos, Intermediário e Avançado.
+                No início do curso o Aluno iniciará as aulas introdutórias de sopro utilizando o instrumento Flauta
+                Doce, e assim que passar pelo conteúdo de Teoria Musical poderá escolher um outro Instrumento de Sopro
+                no qual ele terá aulas tecnicas deste instrumento, seguindo até o final do Curso.
+                Entre os Instrumentos temos Flauta Doce, Clarineta,Saxofone, Flauta Transversal, Trompete, Trombone,
+                Bombardino.
+                O instrutor fará uma avaliação de Nivelamento, podendo o Aluno avançar de Nível conforme o seu
+                conhecimento. O Projeto Acordes, fornecerá os Instrumentos para Aluno utilizar durante todo o período do
+                Curso.
+              </p>
+              <h3 class="corFonteAzul text text-center my-5">Conteúdo dos Módulos</h3>
+              
+              <!--Criando um container onde conterá 3 group-list  -->
+              <div class="row p-3">
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-danger cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Sopros - Básico</h4>
+                    <li class="list-group-item">História da Música </li>
+                    <li class="list-group-item">Teoria Musical - Básico</li>
+                    <li class="list-group-item">Iniciação Flauta Doce</li>
+                    <li class="list-group-item">Ritmos e Batidas - Básico</li>
+                    <li class="list-group-item">Harmonia I</li>
+                    <li class="list-group-item">Primeiras Músicas</li>
+                  </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-info cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Sopros - Intermediário</h4>
+                    <li class="list-group-item">Teoria Musical - Intermediário</li>
+                    <li class="list-group-item">Iniciação com Instrumento Escolhido</li>
+                    <li class="list-group-item">Ritmos e Batidas - Intermediário</li>
+                    <li class="list-group-item">Percepção </li>
+                    <li class="list-group-item">Harmonia II</li>
+                    <li class="list-group-item">Tocando Novas Músicas </li>
+                  </ul>
+
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 bg-success cantoRedondo p-2">
+                  <ul class="list-group">
+                    <h4 class="text-center">Sopros - Avançado</h4>
+                    <li class="list-group-item">Teoria Musical - Avançado</li>
+                    <li class="list-group-item">Aperfeiçoamento Instrumento Escolhido</li>
+                    <li class="list-group-item">Ritmos e Batidas - Avançado</li>
+                    <li class="list-group-item">Harmonia III</li>
+                    <li class="list-group-item">Montando Repertórios </li>
+                    <li class="list-group-item">Apresentação Final </li>
+                  </ul>
+
+                </div>
+              </div>
+              <h3 class="corFonteAzul text text-center my-5">Agenda</h3>
+              <!-- Criando um container que receberá as 3 tabelas para divulgar a agenda da Oficina Sopro -->
+              <div class="container">
+                <div class="row w-100">
+
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Básico</h4>
+                  </div>
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 col-md-12 col-sm-12 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-danger justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>13h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Mayara Adriane</td>
+                        </tr>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>13h20</td>
+                          <td>Carapicuíba</td>
+                          <td>Marcos Abreu</td>
+                        </tr>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>13h20</td>
+                          <td>Guaianases</td>
+                          <td>Wagner Rodrigues</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <div class="container">
+                <div class="row ">
+                  <div class="col-lg-12">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Intermediário</h4>
+                  </div>
+                  <div class="col-lg-3"></div>
+                  <div class="col-lg-6 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-primary justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>14h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Mayara Adriane</td>
+                        </tr>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>14h20</td>
+                          <td>Carapicuíba</td>
+                          <td>Marcos Abreu</td>
+                        </tr>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>14h20</td>
+                          <td>Guaianases</td>
+                          <td>Wagner Rodrigues</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                </div>
+              </div>
+              <div class="container align-content-center">
+                <div class="row ">
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6">
+                    <h4 class="corFonteAzul text-center">Oficina Nível Avançado</h4>
+                  </div>
+                  <div class="col-lg-6"></div>
+                  <div class="col-lg-6 table-responsive">
+                    <table class="table table-responsive table-hover w-100 table-success justify-content-center">
+                      <thead>
+                        <tr class="text-block">
+                          <th scope="col">Dia</th>
+                          <th scope="col">Horário</th>
+                          <th scope="col">Local</th>
+                          <th scope="col">Professor</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>15h20</td>
+                          <td>Capão Redondo</td>
+                          <td>Mayara Adriane</td>
+                        </tr>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>15h20</td>
+                          <td>Carapicuíba</td>
+                          <td>Marcos Abreu</td>
+                        </tr>
+                        <tr>
+                          <td>Sexta-Feira</td>
+                          <td>15h20</td>
+                          <td>Guaianases</td>
+                          <td>Wagner Rodrigues</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="container align-content-end">
+        <div class="align-content-center pb-4">
+          <a href="Cadastro.html" class="btn corFundoAzul text-light">Inscreva-se</a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Container com Dois iframes de Vídeos do Youtube -->
+    <div class="container corFundoAzul cantoRedondo my-5 pb-5">
+      <div class="row">
+        <h3 class="corFonteAmarelo text-center my-5">Curiosidades Sobre os Sons dos Instrumentos, você conhece?</h3>
+        <div class="col-lg-6 col-sm-12 justify-content-center">
+          <iframe width="100%" height="310" src="https://www.youtube.com/embed/fwHqfe2i4Eo?start=3"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <div class="col-lg-6 col-sm-12 justify-content-center">
+          <iframe width="100%" height="310" src="https://www.youtube.com/embed/FjWVQXhgb7U?start=2"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+
+
+  </main>
+
+  <!-- Ciado um FOOTER limpo, pois receberá toda a estrutura do RODAPÉ por meio do javscript -->
+  <footer class="cor-azul">
+
+  </footer>
+  
+  <!-- ******************* ACESSIBILIDADE LIBRAS******************** -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <script src="js/script.js"></script>
+  <!-- ******************* Script do Bootstrap******************** -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
